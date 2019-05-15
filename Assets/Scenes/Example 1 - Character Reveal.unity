@@ -548,7 +548,7 @@ MonoBehaviour:
   m_OnEndEdit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1754218261}
+      - m_Target: {fileID: 1754218263}
         m_MethodName: ReplaceStringWithSources
         m_Mode: 2
         m_Arguments:
@@ -559,8 +559,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1754218261}
-        m_MethodName: Reveal
+      - m_Target: {fileID: 1754218263}
+        m_MethodName: Initialize
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -956,7 +956,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1754218261}
+      - m_Target: {fileID: 1754218263}
         m_MethodName: ReplaceStringWithSources
         m_Mode: 2
         m_Arguments:
@@ -967,8 +967,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1754218261}
-        m_MethodName: Reveal
+      - m_Target: {fileID: 1754218263}
+        m_MethodName: Initialize
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1822,7 +1822,10 @@ GameObject:
   - component: {fileID: 1754218258}
   - component: {fileID: 1754218260}
   - component: {fileID: 1754218259}
+  - component: {fileID: 1754218263}
   - component: {fileID: 1754218261}
+  - component: {fileID: 1754218262}
+  - component: {fileID: 1754218264}
   m_Layer: 5
   m_Name: '[Display Text]'
   m_TagString: Untagged
@@ -1982,11 +1985,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0cfa802cf20487eb0930b0985bbffb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayText: {fileID: 1754218259}
+  textension: {fileID: 1754218263}
   characterDelay: 0.05
-  characterScale: 0
-  allEffects:
-  - {fileID: 11400000, guid: 30d34af388203004d98c9bdfa81d38f0, type: 2}
+--- !u!114 &1754218262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754218257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a22bceb86590a9d4b95124d89cf6c79d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  revealKey: 282
+  textension: {fileID: 1754218263}
+--- !u!114 &1754218263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754218257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d06dbfbf2541b514bb97d2ffc0c3cbbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1754218259}
+  characterScale: 0.5
+  characters: []
+  unrevealedCharacters: []
+  cachedColor:
+    serializedVersion: 2
+    rgba: 0
+--- !u!114 &1754218264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754218257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dda6b34e8933a494caec694f7935eb00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textension: {fileID: 1754218263}
+  characterDelay: 0.05
 --- !u!1 &1828201799
 GameObject:
   m_ObjectHideFlags: 0
