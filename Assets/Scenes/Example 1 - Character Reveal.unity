@@ -1826,7 +1826,6 @@ GameObject:
   - component: {fileID: 1754218262}
   - component: {fileID: 1754218261}
   - component: {fileID: 1754218264}
-  - component: {fileID: 1754218265}
   m_Layer: 5
   m_Name: '[Display Text]'
   m_TagString: Untagged
@@ -1987,7 +1986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textension: {fileID: 1754218263}
-  characterDelay: 1
+  characterDelay: 0.1
 --- !u!114 &1754218262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2015,9 +2014,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 1754218259}
-  characterScale: 0
+  isRunning: 1
+  hideOnInitialization: 1
   characters: []
   unrevealedCharacters: []
+  effectsToApply: []
   cachedColor:
     serializedVersion: 2
     rgba: 0
@@ -2030,26 +2031,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1754218257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dda6b34e8933a494caec694f7935eb00, type: 3}
+  m_Script: {fileID: 11500000, guid: 1ba8c7a256bd6aa4e82400dde9c90553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textension: {fileID: 1754218263}
-  characterDelay: 1
---- !u!114 &1754218265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754218257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c5eed7ff68048a49a33b579ea723eea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textension: {fileID: 1754218263}
-  allEffects:
-  - {fileID: 11400000, guid: 30d34af388203004d98c9bdfa81d38f0, type: 2}
+  fx: {fileID: 11400000, guid: 30d34af388203004d98c9bdfa81d38f0, type: 2}
 --- !u!1 &1828201799
 GameObject:
   m_ObjectHideFlags: 0
