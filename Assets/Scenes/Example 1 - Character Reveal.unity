@@ -2014,7 +2014,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 1754218259}
+  characterScale: 1
   isRunning: 1
+  runEffects: 1
   hideOnInitialization: 1
   characters: []
   unrevealedCharacters: []
@@ -2035,7 +2037,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textension: {fileID: 1754218263}
-  fx: {fileID: 11400000, guid: 30d34af388203004d98c9bdfa81d38f0, type: 2}
+  fxs:
+  - {fileID: 11400000, guid: 30d34af388203004d98c9bdfa81d38f0, type: 2}
 --- !u!1 &1828201799
 GameObject:
   m_ObjectHideFlags: 0
