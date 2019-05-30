@@ -2014,16 +2014,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 1754218259}
-  characterScale: 1
-  isRunning: 1
-  runEffects: 1
+  characterScale: {x: 1, y: 1, z: 1}
+  hasInitialized: 0
   hideOnInitialization: 1
   characters: []
   unrevealedCharacters: []
   effectsToApply: []
-  cachedColor:
-    serializedVersion: 2
-    rgba: 0
 --- !u!114 &1754218264
 MonoBehaviour:
   m_ObjectHideFlags: 0
