@@ -2019,7 +2019,6 @@ MonoBehaviour:
   hideOnInitialization: 1
   characters: []
   unrevealedCharacters: []
-  effectsToApply: []
 --- !u!114 &1754218264
 MonoBehaviour:
   m_ObjectHideFlags: 0
