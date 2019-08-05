@@ -611,7 +611,7 @@ MonoBehaviour:
   m_CaretColor: {r: 1, g: 0.8000001, b: 0.14901961, a: 1}
   m_CustomCaretColor: 1
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: '[Example Text]'
+  m_Text: Textensions.com
   m_CaretBlinkRate: 1.2
   m_CaretWidth: 2
   m_ReadOnly: 0
@@ -1233,7 +1233,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "[Example Text]\u200B"
+  m_text: "Textensions.com\u200B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c31d80d5ee66a1b4083a87ee90d50857, type: 2}
   m_sharedMaterial: {fileID: 8242880010910221466, guid: c31d80d5ee66a1b4083a87ee90d50857,
@@ -1303,9 +1303,9 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1208470528}
-    characterCount: 15
+    characterCount: 16
     spriteCount: 0
-    spaceCount: 1
+    spaceCount: 0
     wordCount: 2
     linkCount: 0
     lineCount: 1
@@ -1990,6 +1990,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textension: {fileID: 1754218263}
   fxs:
+  - {fileID: 11400000, guid: 05a9b6a2853c96e418951992f3d9e324, type: 2}
   - {fileID: 11400000, guid: 05a9b6a2853c96e418951992f3d9e324, type: 2}
 --- !u!114 &1754218262
 MonoBehaviour:
