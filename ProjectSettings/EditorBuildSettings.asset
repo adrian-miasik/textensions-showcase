@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Example 2 - World.unity
+    guid: 9e8695356a2c93d42bee6ca2e6ecda4f
+  - enabled: 1
     path: Assets/Scenes/Example 1 - Character Reveal.unity
     guid: 774ca1d04b5c636428d099dc40a1d735
   m_configObjects: {}
